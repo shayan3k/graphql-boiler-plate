@@ -4,7 +4,8 @@
   "description": "Boiler plate for graphql",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "json:server": "json-server --watch data.json"
   },
   "author": "ShayaNNN",
   "license": "MIT",
@@ -13,7 +14,8 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-graphql": "^0.9.0",
-    "graphql": "^15.0.0"
+    "graphql": "^15.0.0",
+    "json-server": "^0.16.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.3"
